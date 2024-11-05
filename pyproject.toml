@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "load-generator-videosys"
+version = "0.1.0"
+description = ""
+authors = ["Cyril Kondratenko <kkn1993@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["standard"], version = "^0.115.4"}
+prometheus-client = "^0.21.0"
+requests = "^2.32.3"
+aiohttp = "^3.10.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
