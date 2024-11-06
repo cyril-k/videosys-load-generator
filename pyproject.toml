@@ -11,6 +11,7 @@ fastapi = {extras = ["standard"], version = "^0.115.4"}
 prometheus-client = "^0.21.0"
 requests = "^2.32.3"
 aiohttp = "^3.10.10"
+boto3 = "^1.35.54"
 
 
 [build-system]
